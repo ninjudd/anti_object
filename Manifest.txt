@@ -1,7 +1,0 @@
-History.txt
-Manifest.txt
-README.txt
-Rakefile
-bin/anti_object
-lib/anti_object.rb
-test/test_anti_object.rb

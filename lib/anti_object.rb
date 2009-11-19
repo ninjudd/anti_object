@@ -8,18 +8,10 @@ class AntiObject
   def ~
     @object
   end
-
-  def anti?
-    not super
-  end
 end
 
 class Object
   def ~
     AntiObject.new(self)
-  end
-
-  def anti?
-    false
   end
 end

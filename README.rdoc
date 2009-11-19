@@ -1,0 +1,15 @@
+= AntiObject
+
+AntiObject is just a simple way to pass around an object that is the inverse of another
+object.
+
+== USAGE:
+
+ a = [1,2,3]
+ b = ~a
+
+ b.kind_of?(AntiObject)
+ # => true
+
+ a == ~b
+ # => true
