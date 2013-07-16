@@ -9,6 +9,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Invert any object}
   gem.summary       = gem.description
   gem.homepage      = "https://github.com/ninjudd/anti_object"
+  gem.license       = 'MIT'
 
   gem.add_development_dependency 'shoulda', '3.0.1'
   gem.add_development_dependency 'mocha'
